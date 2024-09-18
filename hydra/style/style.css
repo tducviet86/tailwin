@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradientColor {
+    @apply bg-gradient-to-r from-linear-start to-linear-end text-backg;
+}
+
+.gradientColor-bg {
+    @apply bg-gradient-to-r from-radial-start to-radial-end;
+}
+
+.head {
+    @apply text-white text-[12px] not-italic font-[200] leading-normal text-opacity-80;
+}
+
+.title {
+    @apply text-[36px] not-italic font-bold leading-normal;
+}
+
+.title-2 {
+    @apply text-[36px] not-italic font-normal leading-normal;
+}
+
+.head-2 {
+    @apply text-[19px] not-italic font-thin leading-normal;
+}
